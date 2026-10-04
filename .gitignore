@@ -1,0 +1,37 @@
+# Environment dan rahasia
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+
+# Dependensi
+/vendor/
+/backend/vendor/
+node_modules/
+
+# Hasil build frontend
+/frontend/dist/
+/backend/public/build/
+/backend/public/hot/
+
+# File runtime Laravel
+/backend/storage/*.key
+/backend/storage/logs/*
+/backend/storage/framework/cache/data/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/storage/app/public/*
+/backend/public/storage
+/backend/bootstrap/cache/*.php
+/backend/database/*.sqlite*
+
+# Hasil pengujian
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# File sistem
+.DS_Store
+Thumbs.db
